@@ -14,11 +14,11 @@ if __name__ == '__main__':
     # 打印
     print('Hello World!')
 
-    # 取4个随机数
+    # 从1500以内的范围取10个随机数
     i = 0
     rand_list = []
-    while i < 4:
-        rand_num = random.randint(0, 499)
+    while i < 10:
+        rand_num = random.randint(0, 1499)
         if rand_num not in rand_list:
             rand_list.append(rand_num)
             i += 1
