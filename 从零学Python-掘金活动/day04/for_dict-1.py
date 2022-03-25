@@ -16,6 +16,7 @@ if __name__ == '__main__':
     score_dict = {'math': 96, 'english': 97, 'chinese': 98}
 
     # 循环获取key
+    key: str
     for key in score_dict:
         print(key)
 
